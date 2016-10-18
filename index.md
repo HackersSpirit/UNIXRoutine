@@ -102,6 +102,25 @@ DNF or Dandified Yum is the next generation version of the Yellowdog Updater, Mo
 > Before running the above commands, you have to either get sudo access by entering `su` and then your password or by preceding the command with `sudo`.
  
 ---
+
+### `tar` :  rip a collection of files and directories into highly compressed archive file commonly called tarball or tar, gzip and bzip in Linux.
+>Saves many files together into a single tape or disk archive, and can restore individual files from the archive.
+
+À la carte :
+
+- `tar -cf archive.tar foo bar` : Create archive.tar from files foo and bar.
+
+- `tar -tvf archive.tar` : List all files in archive.tar verbosely.
+
+- `tar -xf archive.tar` : Extract all files from archive.tar.
+
+>Learn more about `tar` [here.](http://wiki.linuxquestions.org/wiki/Tar)
+
+Geeky Gif : 
+
+![ls.gif](geekygifs/ls.gif)
+
+---
 Copyright [sudoankit.](https://github.com/sudoankit)
 Licensed under the [MIT License.](https://raw.githubusercontent.com/sudoankit/UNIXRoutine/master/LICENSE)
 
