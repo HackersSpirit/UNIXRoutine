@@ -118,7 +118,7 @@ DNF or Dandified Yum is the next generation version of the Yellowdog Updater, Mo
 
 Geeky Gif : 
 
-![ls.gif](geekygifs/ls.gif)
+![ls.gif](geekygifs/tar.gif)
 
 ---
 Copyright [sudoankit.](https://github.com/sudoankit)
