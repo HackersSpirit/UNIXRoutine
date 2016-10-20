@@ -121,6 +121,31 @@ Geeky Gif :
 ![ls.gif](geekygifs/tar.gif)
 
 ---
+### `make` : it is a utility for building and maintaining groups of programs (and other types of files) from source code.
+The purpose of the make utility is to determine automatically which pieces of a large program need to be re-compiled, and issue the commands necessary to recompile them.
+To prepare to use make, you must write a file called the makefile that describes the relationships among files in your program, and the states the commands for updating each file.
+
+>Everytime make command gets invoked, it checks and compiles only the file that are modified. This is huge for C programmers, where they typically have multiple C file, and compiling the whole project several times during development phase. 
+
+À la carte :
+
+Options:
+
+- `-b, -m` :These options are ignored for compatibility with other versions of make. 
+
+- `-B, --always-make` : Unconditionally make all targets. 
+
+- `-d` : Print debugging information in addition to normal processing.
+
+- ` +-f file, --file=file, --makefile=FILE` : Use file as a makefile. 
+
+>Learn more about `tar` [here.](http://wiki.linuxquestions.org/wiki/Tar)
+
+Geeky Gif : 
+
+![ls.gif](geekygifs/make.gif)
+
+---
 Copyright [sudoankit.](https://github.com/sudoankit)
 Licensed under the [MIT License.](https://raw.githubusercontent.com/sudoankit/UNIXRoutine/master/LICENSE)
 
